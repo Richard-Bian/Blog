@@ -1,4 +1,4 @@
 *.log
 *.temp
-.history
+.history/
 /vendor
