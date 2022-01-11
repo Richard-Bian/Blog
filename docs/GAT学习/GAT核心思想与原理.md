@@ -2,7 +2,7 @@
 
 #  Graph Attention Networks 核心思想与原理
 
- 
+ <div align="right"><font size="3"color="grey">2022年01月07日</font></div>
 
 ## 预备知识
 
@@ -75,7 +75,6 @@ $$
 \mathbf{L=D^{-\frac{1}{2}}(D-A)D^{-\frac{1}{2}}=I-D^{-\frac{1}{2}}AD^{-\frac{1}{2}}}
 $$
 
-##
 
 
 #### 例子:
