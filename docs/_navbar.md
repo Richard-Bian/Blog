@@ -19,7 +19,7 @@
   * [JSON在线解析](https://c.runoob.com/front-end/53/)
   * [矩阵计算](https://matrixcalc.org/zh/)
 
-* [About me](resume/bst_resume.md)
+  
 
   
 
