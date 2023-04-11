@@ -10,12 +10,9 @@
 
  
 
-- Java常见的面试题
-- MySQL、MQ、Nginx等中间件
-- 计算机网络、操作系统
-- 高频算法
-- 大厂原题
-- [技术路线](roadmap/README.md)
+
+- [我的博客](roadmap/README.md)
+- [About me](resume/bst_resume.md)
 
 [开始阅读](/README.md)
 

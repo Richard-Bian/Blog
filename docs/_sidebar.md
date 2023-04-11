@@ -1,7 +1,9 @@
 * [学习笔记](README.md)
   * GAT 学习
     * [GAT 核心思想与原理](GAT学习/GAT核心思想与原理.md)
-    * 
+  * C++Primer  学习
+    * 第二章 开始学习C++
+    	* [编程练习](C++_Primer_Plus/chapter02.md)	
   * faiss 学习笔记
     * [faiss 安装避坑](miscellaneous/faiss安装避坑.md)
     *
