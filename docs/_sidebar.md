@@ -3,19 +3,16 @@
     * [GAT 核心思想与原理](GAT学习/GAT核心思想与原理.md)
   * C++Primer  学习
     * 第二章 开始学习C++
-    	* [编程练习](C++_Primer_Plus/chapter02.md)	
+    	* [编程练习](C++_Primer_Plus/chapter02.md)
   * faiss 学习笔记
     * [faiss 安装避坑](miscellaneous/faiss安装避坑.md)
-    *
-  * 算法
-    * 快速排序
   * 西瓜书学习笔记
     * [chapter1&chapter2](PumpkinBook_learn/chapter1&chapter2.md)
   * 自然语言处理
     * [NLP入门概念](NLP/NLP入门概念.md)
 
 * 学习课件
-  * GNN 课件
+  - GNN 课件
     * [1-开篇](GNN学习/1-开篇.md)
     * [2-简单图论](GNN学习/2-简单图论.md)
     * [3-环境配置与 PyG 中图与图数据集的表示和使用](GNN学习/3-环境配置与PyG库.md)

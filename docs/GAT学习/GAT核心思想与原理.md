@@ -20,7 +20,7 @@
 
 ## 简单图论
 
-![](https://gitee.com/riachrd-bian/drawing-bed/raw/master/uPic/faedab64034f78f07d408c6f6d633f50b2191cbd.jpeg)
+![](images/faedab64034f78f07d408c6f6d633f50b2191cbd.jpg)
 
  
 
@@ -78,7 +78,7 @@ $$
 
 
 #### 例子:
-![w:1000](https://gitee.com/riachrd-bian/drawing-bed/raw/master/uPic/R01hxb.jpg)
+![w:1000](images/R01hxb.jpg)
 
  
 
@@ -98,7 +98,7 @@ $$
 
 ### 聚合
 
-![w:500](https://gitee.com/riachrd-bian/drawing-bed/raw/master/uPic/GqQ8GM.png)
+![w:500](images/GqQ8GM.png)
 **经过一次聚合后:**
 A的邻居信息 $N_A=b(2,2,2,2,2)+c(3,3,3,3,3)+d(4,4,4,4,4)$
 $b,c,d$分别为B,C,D对A的权重
@@ -107,7 +107,7 @@ $b,c,d$分别为B,C,D对A的权重
 
 ### 更新
 
-![w:500](https://gitee.com/riachrd-bian/drawing-bed/raw/master/uPic/GqQ8GM.png)
+![w:500](images/GqQ8GM.png)
 A的邻居信息 $N_{A}^{0}=b(2,2,2,2,2)+c(3,3,3,3,3)+d(4,4,4,4,4)$
 A的信息 $x_{A}^{1}=\sigma(W_0((1,1,1,1,1)+\alpha*N_{A}^{0}))$
 $\sigma$是激活函数($relu,sigmoid$.etc)
@@ -117,7 +117,7 @@ $W$是模型需要训练的参数
 
 ### 循环
 
-![w:1000](https://gitee.com/riachrd-bian/drawing-bed/raw/master/uPic/w6JCKJ-20220121144021650.jpg)
+![w:1000](images/w6JCKJ-20220121144021650.jpg)
 多次以后: A的信息 $x_{A}^{t+1}=\sigma(W_t(x_{A}^{t}+\alpha*N_{A}^{t}))$
 简写为$H^{(k+1)}=f\left(H^{(k)}, A\right)
 $
@@ -157,14 +157,14 @@ $$
 
 那么**现在的问题**是如何学习，我们可以从CNN中得到启发：
 
-![w:600](https://gitee.com/riachrd-bian/drawing-bed/raw/master/uPic/k3CZXs.png)
+![w:600](images/k3CZXs.png)
 
 这是一个简单的3x3卷积层，每个新特征的学习是这样的：对其领域（3x3局部空间）的特征进行变换$（w_i,w_j）$，然后求和$(\sum_{i}w_ix_i)$。类比到图学习上，每个节点的新特征可以类似得到：对该节点的邻域节点特征进行变换，然后求和。用公式表达就是：
 
 $$H^{(k+1)}=f\left(H^{(k)}, A\right)=\sigma\left(A H^{(k)} W^{(k)}\right)$$
 这里的$W^k$是学习权重，维度为$F^{k-1} \times F^{k}$，而$\sigma(\cdot)$是激活函数，比如是ReLU，这是神经网路的基本单元。
 
-![w:500](https://gitee.com/riachrd-bian/drawing-bed/raw/master/uPic/GlBc5S.jpg)
+![w:500](images/GlBc5S.jpg)
 
 ### 图卷积
 上述的加法规则只是一个简单实现，其存在两个问题：**第一个问题**是在计算新特征时没有考虑自己的特征，这肯定是个重大缺陷；**第二个问题是**采用加法规则时，度大的节点特征越来越大，而对于度小的节点却相反，这可能导致网络训练过程中梯度爆炸或者消失的问题。
@@ -222,7 +222,7 @@ $$
 
 其实图神经网路（GNN，Graph Neural Network）是一个庞大的家族，如果按照[公式]分类，其可以分成以下类型：
 
-![w:1000](https://gitee.com/riachrd-bian/drawing-bed/raw/master/uPic/3JO1Ee.png)
+![w:1000](images/3JO1Ee.png)
 
 
 
@@ -235,13 +235,13 @@ $$
 
 ## Attention 注意力机制
 
-![w:600](https://easy-ai.oss-cn-shanghai.aliyuncs.com/2019-11-13-only-attention.png)
+![w:600](images/2019-11-13-only-attention.png)
 
 
 
 ### Attention的具体步骤
 
-![](https://easy-ai.oss-cn-shanghai.aliyuncs.com/2019-11-13-3step.png)
+![](images/2019-11-13-3step.png)
 
 
 
@@ -264,7 +264,7 @@ $$
 
 ## GAT核心原理思想与原理
 
-![w:1000](https://gitee.com/riachrd-bian/drawing-bed/raw/master/uPic/1twLzi.jpg)
+![w:1000](images/1twLzi.jpg)
 
 
 
@@ -298,11 +298,11 @@ $$
 
 
 
-![](https://gitee.com/riachrd-bian/drawing-bed/raw/master/uPic/mwViwI.png)
+![](images/mwViwI.png)
 
 
 ### Multi-head Attention 多头注意力机制
-![](https://gitee.com/riachrd-bian/drawing-bed/raw/master/uPic/7DitWi.png)
+![](images/7DitWi.png)
 
 
 ### GCN与CAT共通点:
