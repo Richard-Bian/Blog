@@ -1,4 +1,6 @@
 * [学习笔记](README.md)
+  * Python 学习
+  * [logging使用基础指南](Python学习/Python%20中使用%20logging%20模块代替%20print.md)
   * GAT 学习
     * [GAT 核心思想与原理](GAT学习/GAT核心思想与原理.md)
   * C++Primer  学习
